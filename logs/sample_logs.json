@@ -1,0 +1,146 @@
+[
+  {
+    "@timestamp": "2025-01-10T09:55:10Z",
+    "event_type": "failed_login",
+    "username": "admin",
+    "source_ip": "185.220.101.34",
+    "host": "web-server-1",
+    "severity": "medium",
+    "message": "Failed login attempt for admin account"
+  },
+  {
+    "@timestamp": "2025-01-10T09:55:25Z",
+    "event_type": "failed_login",
+    "username": "admin",
+    "source_ip": "185.220.101.34",
+    "host": "web-server-1",
+    "severity": "medium",
+    "message": "Repeated failed login attempt detected"
+  },
+  {
+    "@timestamp": "2025-01-10T09:56:02Z",
+    "event_type": "brute_force",
+    "username": "admin",
+    "source_ip": "185.220.101.34",
+    "host": "web-server-1",
+    "severity": "critical",
+    "message": "Possible brute force attack detected after multiple failures"
+  },
+  {
+    "@timestamp": "2025-01-10T09:57:45Z",
+    "event_type": "account_lockout",
+    "username": "admin",
+    "source_ip": "185.220.101.34",
+    "host": "web-server-1",
+    "severity": "high",
+    "message": "Admin account locked due to excessive failed login attempts"
+  },
+  {
+    "@timestamp": "2025-01-10T10:00:10Z",
+    "event_type": "successful_login",
+    "username": "john_doe",
+    "source_ip": "10.10.1.15",
+    "host": "employee-portal",
+    "severity": "low",
+    "message": "User logged in successfully"
+  },
+  {
+    "@timestamp": "2025-01-10T10:02:30Z",
+    "event_type": "suspicious_login",
+    "username": "finance_user",
+    "source_ip": "91.240.118.172",
+    "host": "finance-server",
+    "severity": "medium",
+    "message": "Login from unusual geographic location detected"
+  },
+  {
+    "@timestamp": "2025-01-10T10:04:50Z",
+    "event_type": "privilege_escalation",
+    "username": "intern",
+    "source_ip": "10.0.0.9",
+    "host": "db-server",
+    "severity": "high",
+    "message": "Unauthorized privilege escalation attempt detected"
+  },
+  {
+    "@timestamp": "2025-01-10T10:05:10Z",
+    "event_type": "malware_detected",
+    "username": "system",
+    "source_ip": "10.0.0.5",
+    "host": "endpoint-23",
+    "severity": "critical",
+    "message": "Malware signature detected: Trojan.Generic"
+  },
+  {
+    "@timestamp": "2025-01-10T10:06:30Z",
+    "event_type": "endpoint_isolated",
+    "username": "system",
+    "source_ip": "10.0.0.5",
+    "host": "endpoint-23",
+    "severity": "high",
+    "message": "Endpoint isolated to prevent malware spread"
+  },
+  {
+    "@timestamp": "2025-01-10T10:08:10Z",
+    "event_type": "password_reset",
+    "username": "finance_user",
+    "source_ip": "10.10.1.20",
+    "host": "identity-server",
+    "severity": "low",
+    "message": "Password reset initiated after suspicious login"
+  },
+  {
+    "@timestamp": "2025-01-10T10:10:00Z",
+    "event_type": "failed_login",
+    "username": "root",
+    "source_ip": "203.0.113.45",
+    "host": "linux-server-2",
+    "severity": "high",
+    "message": "Failed SSH login attempt for root user"
+  },
+  {
+    "@timestamp": "2025-01-10T10:10:30Z",
+    "event_type": "brute_force",
+    "username": "root",
+    "source_ip": "203.0.113.45",
+    "host": "linux-server-2",
+    "severity": "critical",
+    "message": "SSH brute force attack suspected from external IP"
+  },
+  {
+    "@timestamp": "2025-01-10T10:12:00Z",
+    "event_type": "ip_blocked",
+    "username": "system",
+    "source_ip": "203.0.113.45",
+    "host": "firewall",
+    "severity": "high",
+    "message": "Source IP blocked by firewall due to malicious activity"
+  },
+  {
+    "@timestamp": "2025-01-10T10:14:45Z",
+    "event_type": "data_access",
+    "username": "john_doe",
+    "source_ip": "10.10.1.15",
+    "host": "crm-server",
+    "severity": "low",
+    "message": "User accessed customer records"
+  },
+  {
+    "@timestamp": "2025-01-10T10:16:30Z",
+    "event_type": "anomaly_detected",
+    "username": "john_doe",
+    "source_ip": "10.10.1.15",
+    "host": "crm-server",
+    "severity": "medium",
+    "message": "Unusual volume of data access detected"
+  },
+  {
+    "@timestamp": "2025-01-10T10:18:00Z",
+    "event_type": "incident_escalation",
+    "username": "soc_analyst",
+    "source_ip": "10.0.0.50",
+    "host": "soc-console",
+    "severity": "high",
+    "message": "Incident escalated to SOC Tier-2 for further investigation"
+  }
+]
