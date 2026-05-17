@@ -33,4 +33,7 @@ Cyber Security Intern – Future Int
 
 Python Basics : Python is a compiler and interpreted language 
 - Uaw print(" 1 day ");
-- dyanmic peopeeeety of varibles in javascript 
+- dyanmic peopeeeety of varibles in javascript
+
+Build in Data Strcture 
+1 List - list is a mutuable data strcture eg a = [ 10 , 20, 30 , 40]
