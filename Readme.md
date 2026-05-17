@@ -37,3 +37,5 @@ Python Basics : Python is a compiler and interpreted language
 
 Build in Data Strcture 
 1 List - list is a mutuable data strcture eg a = [ 10 , 20, 30 , 40]
+- . append() = adds value at the end of the list
+- . insert( position , element) = adds a element at a specific index 
