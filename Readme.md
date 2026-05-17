@@ -32,3 +32,4 @@ VIT
 Cyber Security Intern – Future Int 
 
 Python Basics : Python is a compiler and interpreted language 
+- Uaw print(" ! day ");
