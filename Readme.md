@@ -46,4 +46,5 @@ Build in Data Strcture
 2. Tuple - they are the immutable data strcture
 3. sets - there are no sequence of elements there is no maintained order ,  No repeated elements are allowed
 - intersection method of set allows us to find the common value in the 2 sets
-- remove and discard removes the element but the major diff is discard will not give nay error if the element is not present in the set 
+- remove and discard removes the element but the major diff is discard will not give nay error if the element is not present in the set
+4. Dictionary - They basically store the data in the key value pair 
