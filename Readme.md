@@ -41,4 +41,7 @@ Build in Data Strcture
 - . insert( position , element) = adds a element at a specific index
 - . pop() = will pop the last element
 - . remove(element) = removes the soecific element
-- .extend() adds an list to another one 
+- .extend() adds an list to another one
+
+2. Tuple - they are the immutable data strcture
+   - 
