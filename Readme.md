@@ -44,4 +44,5 @@ Build in Data Strcture
 - .extend() adds an list to another one
 
 2. Tuple - they are the immutable data strcture
-3. sets - there are no sequence of elements there is no maintained order 
+3. sets - there are no sequence of elements there is no maintained order ,  No repeated elements are allowed
+- intersection method of set allows us to find the common value in the 2 sets 
