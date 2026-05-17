@@ -44,4 +44,4 @@ Build in Data Strcture
 - .extend() adds an list to another one
 
 2. Tuple - they are the immutable data strcture
-   - 
+3. sets - there are no sequence of elements there is no maintained order 
