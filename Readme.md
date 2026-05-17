@@ -8,7 +8,7 @@ Security events were analyzed using Elastic Security to identify threats and res
 - Elastic Cloud (Elasticsearch)
 - Kibana (Elastic Security)
 - Dev Tools (manual event ingestion)
-
+     
 ## Activities Performed
 - Security event analysis
 - Alert severity classification
@@ -57,5 +57,7 @@ if(x > 20):
  print(" ladjiadn")
 else:
  print("adoaid")
+
+Functions :
 
 
