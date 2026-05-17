@@ -47,4 +47,15 @@ Build in Data Strcture
 3. sets - there are no sequence of elements there is no maintained order ,  No repeated elements are allowed
 - intersection method of set allows us to find the common value in the 2 sets
 - remove and discard removes the element but the major diff is discard will not give nay error if the element is not present in the set
-4. Dictionary - They basically store the data in the key value pair 
+4. Dictionary - They basically store the data in the key value pair
+
+
+Conditional Statments 
+1. If else - be sure with the indentation part
+x = 50
+if(x > 20):
+ print(" ladjiadn")
+else:
+ print("adoaid")
+
+
